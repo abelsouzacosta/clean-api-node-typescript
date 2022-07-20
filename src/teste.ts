@@ -1,5 +1,5 @@
-function getOne (): number {
-  return 1
+function getTwo (): number {
+  return 2
 }
 
-getOne()
+getTwo()
