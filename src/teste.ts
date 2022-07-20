@@ -1,10 +1,3 @@
-function getTwo (): number {
-  return 2
+export function greetings (name: string): string {
+  return `Hello ${name}!!`
 }
-
-function anotherTest (): void {
-  console.log('another')
-}
-
-getTwo()
-anotherTest()
